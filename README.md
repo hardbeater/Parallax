@@ -4,7 +4,7 @@ I have done this project while learning about parallax effects in web app.
 In this Web app i have showed some parallax effects like texts or *images going up and down and images pops up while we scroll the page,periscope etc*.
 ## Important-Note
 **z-index** *property* in css will only work on an element whose **position property** has been explicitly set to **absolute, fixed, or relative**.
-## Languages-Used
+## Technologies-Used
 
 **HTML,CSS,Jquery**.
 ## Web-app-Preview

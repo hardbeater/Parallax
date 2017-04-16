@@ -40,12 +40,12 @@ $('"element's class element's" "child class to where we want to add"').each(func
 ```
 like u can see in [parallax.js](https://github.com/hardbeater/parallax/blob/master/js/parallax.js) file
 ```javascript
-if(wscroll>$('.clothespic').offset().top-180){
-			$('.clothespic .coloum ').each(function(i){
+if(wscroll>(clothespictop-180)){
+			clothespiccoloum.each(function(i){
 				setTimeout(function(){
-				$('.clothespic .coloum').eq(i).addClass('show');
-			},150*(i+1));
+				clothespiccoloum.eq(i).addClass('show');
+			},time*(i+1));
 			});
-		};	
+		};
 
 ```

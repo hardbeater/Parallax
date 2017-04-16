@@ -38,7 +38,7 @@ $('"element's class element's" "child class to where we want to add"').each(func
 			});
 			
 ```
-like u can see in [jquery](https://github.com/hardbeater/parallax/blob/master/js/parallax.js) file
+like u can see in [parallax.js](https://github.com/hardbeater/parallax/blob/master/js/parallax.js) file
 ```javascript
 if(wscroll>$('.clothespic').offset().top-180){
 			$('.clothespic .coloum ').each(function(i){
